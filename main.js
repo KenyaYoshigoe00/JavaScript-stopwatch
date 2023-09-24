@@ -63,6 +63,7 @@ function reset(){
   document.getElementById("button_reset").disabled = true;
   document.getElementById("button_stop").disabled = true;
   document.getElementById("button_start").disabled = false;
+  clearInterval(Interval);
   hyouji.innerHTML = "0:0:0:0";
   milliseconds = 0;
   seconds = 0;
